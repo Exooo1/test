@@ -1,0 +1,23 @@
+{
+  "name": "My TON Connect App",
+  "description": "A test application using TON Connect in React.",
+  "url": "http://localhost:5173/",
+  "icons": [
+    {
+      "src": "https://my-ton-connect-app.com/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://my-ton-connect-app.com/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "permissions": [
+    "publicKey",
+    "accountInteraction"
+  ]
+}

@@ -1,0 +1,40 @@
+.borderImageSlice {
+  position: relative;
+  width: 130px;
+  height: 50px;
+  //background: black;
+  background: linear-gradient(180deg, #A3B940 0%, #39712A 100%);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(30px);
+  padding: 3px;
+
+  &:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "";
+    //background: linear-gradient(180deg, #A3B940 0%, #39712A 100%);
+    background: black;
+    border-radius: 60px;
+    height: 95%;
+    width: 98%;
+    //left: -5px;
+    //top: -5px;
+    //padding: 5px;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.test {
+  width: 30px;
+  height: 30px;
+  content: '\25B6'; /* Unicode стрелки вправо */
+  font-size: 24px; /* Размер стрелки */
+  color: black;
+}
+
+
