@@ -1,4 +1,4 @@
-import {Border} from "./border.tsx";
+import {Border} from "./border/border.tsx";
 
 export const IndexCss = () => {
     return <div>
